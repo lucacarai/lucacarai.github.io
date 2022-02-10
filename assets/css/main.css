@@ -16,9 +16,31 @@ h1.major{
 }
 
 .paper > a.title:link{
-text-decoration: none;
+  text-decoration: none;
 }
 
 .paper > a.title:hover{
-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.link-list > a{
+  font-size: 20px;
+  color: black;
+}
+
+.link-list > a:link{
+  text-decoration: none;
+}
+
+.link-list > a:hover{
+  text-decoration: underline;
+}
+
+p.employment{
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+p.address{
+  font-size: 18px;
 }
