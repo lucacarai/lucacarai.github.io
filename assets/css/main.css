@@ -1,9 +1,13 @@
+html{
+  overflow-y: scroll;
+}
+
 h1.major{
   margin-bottom: 50px;
 }
 
 .paper{
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .paper > .journal{
@@ -43,4 +47,25 @@ p.employment{
 
 p.address{
   font-size: 18px;
+}
+
+.course{
+  margin-bottom: 10px;
+}
+
+.course > a.courselink{
+  font-size: 22px;
+  color: black;
+}
+
+.course > a.courselink:link{
+  text-decoration: none;
+}
+
+.course > a.courselink:hover{
+  text-decoration: underline;
+}
+
+.subsection > h1{
+  font-size: 22px;
 }
