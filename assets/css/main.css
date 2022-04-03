@@ -65,7 +65,7 @@ h1.major{
 }
 
 .talk > .titleandslides > a.slides::after{
-  content: "(slides)";
+  content: "";
 }
 
 .talk > .titleandslides > a.slides:link{
