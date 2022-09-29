@@ -15,7 +15,7 @@ h1.major{
 }
 
 .paper > .titleandarXiv > a.title{
-  font-size: 22px;
+  font-size: 20px;
   color: black;
 }
 
@@ -28,13 +28,13 @@ h1.major{
 }
 
 .paper > .titleandarXiv > span.title{
-  font-size: 22px;
+  font-size: 20px;
   color: black;
 }
 
 .paper > .titleandarXiv > a.arXivlink{
   margin-left: 3px;
-  font-size: 22px;
+  font-size: 20px;
   color: red;
 }
 
