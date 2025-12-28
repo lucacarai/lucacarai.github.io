@@ -52,6 +52,24 @@ h1.major{
   text-decoration: underline;
 }
 
+.paper > .titleandarXiv > a.addendumlink{
+  margin-left: 3px;
+  /* font-size: 20px; */
+  color: blue;
+}
+
+.paper > .titleandarXiv > a.addendumlink::after{
+  content: "(Addendum)";
+}
+
+.paper > .titleandarXiv > a.addendumlink:link{
+  text-decoration: none;
+}
+
+.paper > .titleandarXiv > a.addendumlink:hover{
+  text-decoration: underline;
+}
+
 .talk{
   margin-bottom: 10px;
 }
